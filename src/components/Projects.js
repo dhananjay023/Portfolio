@@ -13,13 +13,13 @@ const projects = [
   {
     title: "Spotify Website",
     description: "A sleek, Spotify-inspired website with dynamic UI and smooth animations.",
-    image: "/spotify.jfif", // Ensure correct format
+    image: "/spotify.png", // Ensure correct format
     link: "https://dhananjay023.github.io/Spotify/",
   },
   {
     title: "AI Interview Simulator",
     description: "An AI-powered interview preparation tool using Flask & Firebase.",
-    image: "/interview-simulator.jfif", // Ensure correct format
+    image: "/interview-simulator.png", // Ensure correct format
     link: "https://your-project-link.com",
   }
 ];

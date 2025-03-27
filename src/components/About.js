@@ -15,7 +15,7 @@ const About = () => {
         className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg"
       >
         <Image
-          src="/profile.jfif" // Ensure image is in `public/` directory
+          src="/profile.png" // Ensure image is in `public/` directory
           alt="Dhananjay Varshney"
           width={288}
           height={288}
