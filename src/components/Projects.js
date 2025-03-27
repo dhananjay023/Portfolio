@@ -7,19 +7,19 @@ const projects = [
   {
     title: "Password Manager",
     description: "A secure password management app with MongoDB storage.",
-    image: "/assets/password-manager.png",
+    image: "/password-manager.png",
     link: "https://dhananjay023.github.io/PassVault/",
   },
   {
     title: "Spotify Website",
     description: "A sleek, Spotify-inspired website with dynamic UI and smooth animations.",
-    image: "/assets/spotify.jfif", // Ensure correct format
+    image: "/spotify.jfif", // Ensure correct format
     link: "https://dhananjay023.github.io/Spotify/",
   },
   {
     title: "AI Interview Simulator",
     description: "An AI-powered interview preparation tool using Flask & Firebase.",
-    image: "/assets/interview-simulator.jfif", // Ensure correct format
+    image: "/interview-simulator.jfif", // Ensure correct format
     link: "https://your-project-link.com",
   }
 ];
@@ -56,6 +56,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.title}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 // cover // ✅ Fixed Image Size
                 className="rounded-t-lg object-cover"
               />

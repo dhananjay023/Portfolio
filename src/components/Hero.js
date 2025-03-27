@@ -15,7 +15,7 @@ const Hero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url('/assets/stars.jpg')" }}
+                style={{ backgroundImage: "url('/stars.jpg')" }}
             />
 
             {/* Heading */}
@@ -25,7 +25,7 @@ const Hero = () => {
                 transition={{ duration: 1 }}
                 className="relative text-5xl md:text-7xl font-bold text-white drop-shadow-lg"
             >
-                Hi, I'm <span className="text-blue-400">Dhananjay</span>
+                Hi, I&apos;m <span className="text-blue-400">Dhananjay</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -35,7 +35,7 @@ const Hero = () => {
                 transition={{ delay: 0.5, duration: 1 }}
                 className="relative mt-4 text-lg md:text-2xl text-gray-300"
             >
-                Web Developer | UI/UX Enthusiast | AI Innovator
+                Web Developer | UI/UX Designer | AI Innovator
             </motion.p>
 
             {/* Call-to-Action Button */}

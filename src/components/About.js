@@ -43,7 +43,7 @@ const About = () => {
         className="mt-6 max-w-2xl text-lg text-gray-300 text-center leading-relaxed px-4"
       >
         <p>
-          I'm <strong className="text-white">Dhananjay Varshney</strong>, a passionate developer specializing in{" "}
+          I&apos;m <strong className="text-white">Dhananjay Varshney</strong>, a passionate developer specializing in{" "}
           <strong className="text-blue-300">React, Next.js, and UI/UX design</strong>. I love crafting immersive digital experiences while continuously learning and improving.
         </p>
         <p className="mt-5">
